@@ -4,8 +4,6 @@ import React from 'react';
 
 const WebCounter = CounterContainer(Counter);
 
-const App = () => (
-  <WebCounter />
-);
+const App = () => <WebCounter />;
 
 export default App;

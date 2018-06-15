@@ -1,5 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+// import styles from './Counter.block.scss';
+
+// console.log('STYLES', styles);
 
 /**
  * Counter presentational component.
@@ -13,9 +16,16 @@ import React from 'react';
 const Counter = ({ onClickIncrement, onClickDecrement, onClickReset, count }) => (
   <div>
     <span>Count: {count}</span> <br />
-    <button id="increment" onClick={onClickIncrement}>Increment</button>
-    <button id="decrement" onClick={onClickDecrement}>Decrement</button>  <br/>
-    <button id="reset" onClick={onClickReset}>Reset</button>
+    <button id="increment" onClick={onClickIncrement}>
+      Increment
+    </button>
+    <button id="decrement" onClick={onClickDecrement}>
+      Decrement
+    </button>
+    <br />
+    <button id="reset" onClick={onClickReset}>
+      Reset
+    </button>
   </div>
 );
 

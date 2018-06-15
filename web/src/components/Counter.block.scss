@@ -1,0 +1,18 @@
+/*!
+ Hello
+*/
+
+:scope {
+  background-color: gray;
+  color: white; //$white;
+}
+
+:scope[state|active] {
+  background-color: red;
+}
+
+:scope[state|otherStateVal] {
+  backdrop-filter: blur(2px);
+  color: currentColor;
+  z-index: 100;
+}
